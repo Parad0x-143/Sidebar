@@ -28,11 +28,13 @@ body {
     width: 210px;
 }
 
-.info-card-container {
-    width: 100%;
+.info-cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .card {
-    margin-left: 40px;
+    width: 20%;
     height: 30px;
     width: 300px;
     background-color: black;
