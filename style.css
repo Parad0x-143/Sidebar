@@ -17,12 +17,12 @@ body {
 }
 
 .profile-picture {
-    width: 60px;
+    width: 200px;
     border-radius: 100%;
     user-select: none;
     transition: all ease 0.4s;
 }
 
 .profile-picture:hover {
-    width: 65px;
+    width: 210px;
 }
