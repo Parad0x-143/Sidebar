@@ -64,10 +64,9 @@
     <div class="animation-container">
         <p class="first-text">
             <span id="element">
-              Hello
             </span>
         </p>
-        <p class="2nd-text"></p>
+        <p class="second-text">A web developer</p>
     </div>
 
     <script>
@@ -89,10 +88,12 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['I am ABHAY and'],
+            strings: ['I am ABHAY'],
             startDelay: 600,
             typeSpeed: 150,
             loop: false,
+            showCursor: true,
+            cursorChar: '|',
         });
     </script>
 

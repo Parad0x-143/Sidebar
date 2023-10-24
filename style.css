@@ -77,4 +77,11 @@ body {
     font-family: poppins;
     color: white;
     margin-left: 30px;
+    font-weight: bold;
+}
+
+.second-text {
+    font-size: 30px;
+    color: #AA0000;
+    margin-righ:  80px;
 }
