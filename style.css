@@ -18,7 +18,7 @@ body {
 }
 
 .profile-picture {
-    width: 200px;
+    width: 150px;
     border-radius: 100%;
     user-select: none;
     margin-bottom: 50px;
@@ -26,7 +26,7 @@ body {
 }
 
 .profile-picture:hover {
-    width: 210px;
+    width: 170px;
 }
 
 .info-cards-container {
