@@ -58,11 +58,11 @@ body {
     box-sadow: 5px 5px 20px rgba(0, 0, 0, 0.1) */
 .card-logo {
     border-radius: 25px;
-    width: 45px;
+    width: 80px;
 }
 
 .title {
     justify-self: center;
     color: white;
-    margin-left: 60px;
+    margin-left: 150px;
 }
