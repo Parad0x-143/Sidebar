@@ -62,7 +62,6 @@ body {
 }
 
 .title {
-    justify-self: center;
     color: white;
-    margin-left: 100px;
+    margin-left: 50px;
 }
