@@ -58,8 +58,8 @@
                 // Get the link associated with the clicked div using the "data-link" attribute
                 const linkToOpen = div.getAttribute("data-link");
 
-                // Open the link when the div is clicked
-                window.location.href = linkToOpen;
+                // Open the link in a new tab when the div is clicked
+                window.open(linkToOpen, "_blank");
             });
         });
     </script>
