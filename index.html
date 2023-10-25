@@ -62,11 +62,9 @@
     </div>
 
     <div class="animation-container">
-        <p class="first-text">
-            <span id="element">
-            </span>
-        </p>
-        <p class="second-text">A web developer</p>
+        <p class="first-text"><span id="element"></span></p>
+        <p class="second-text"><span id="element2"></span></p>
+        <p class="third-text"><span id="element"></span></p>
     </div>
 
     <script>
@@ -92,8 +90,15 @@
             startDelay: 600,
             typeSpeed: 150,
             loop: false,
-            showCursor: true,
-            cursorChar: '|',
+            onComplete: function(self) { self.cursor.remove() }
+        });
+
+        var typed = new Typed('#element2', {
+            strings: ['A Web Developer'],
+            startDelay: 3000,
+            typeSpeed: 150,
+            loop: false,
+            onComplete: function(self) { self.cursor.remove() }
         });
     </script>
 
