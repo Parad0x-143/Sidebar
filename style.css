@@ -50,28 +50,38 @@ body {
     display: flex;
     align-items: center;
     padding: 8px;
+    transition: transform .4s;
 }
 
 .card:hover {
-    width: 320px;
+    transform: scale(1.1);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.card:hover .logo {
+    width: 40px;
+    transition: all ease 0.9s;
+    transform: translateX(60px);
 }
 /*    box-shaow: 5px 5px 20px rgba(0, 0, 0, 0.5);
     box-sadow: 5px 5px 20px rgba(0, 0, 0, 0.1) */
 .logo {
     width: 35px;
+    position: relative;
+    transition: transform 0.3s ease;
 }
 
 .title {
     color: white;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 .animation-container {
     margin-top: 50px;
+    height: fit-content;
 }
 
-.first-text , .third-text{
+.first-text {
     font-size: 45px;
     font-family: poppins;
     color: white;
@@ -80,9 +90,21 @@ body {
 }
 
 .second-text {
+    margin-top: 0px;
+    margin-bottom: 15px;
     font-size: 30px;
     font-weight: bold;
     color: #AA0000;
     position: absolute;
     left: 120px;
+}
+
+.third-text {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: poppins;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
 }

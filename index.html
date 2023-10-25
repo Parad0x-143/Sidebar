@@ -15,7 +15,7 @@
     <div class="info-cards-container">
         <div class="card clickable-div" data-link="https://github.com/Parad0x-143">
             <div class="card-logo">
-                <img src="./github.svg" class="logo" style="background-color: white; border-radius: 100%;">
+                <img src="./github.svg" class="logo" style="background-color: white; border-radius: 25px;">
             </div>
             <div class="card-title">
                 <h3 class="title">Github</h3>
@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="card clickable-div" data-link="https://parad0x-143.github.io/Website">
-            <img src="./movies-hub-logo.png" class="logo" style="width: 40px;">
+            <img src="./movies-hub-logo.png" class="logo">
             <h3 class="title">Movies Hub</h3>
         </div>
     </div>
@@ -44,9 +44,10 @@
     <div class="animation-container">
         <p class="first-text"><span id="element"></span></p>
         <p class="second-text"><span id="element2"></span></p>
-        <p class="third-text"><span id="element"></span></p>
     </div>
-
+    <div>
+        <p class="third-text"><span id="element3"></span></p>
+    </div>
     <script>
         // Get all elements with the class "clickable-div"
         const clickableDivs = document.querySelectorAll(".clickable-div");
@@ -72,10 +73,20 @@
             loop: false,
             onComplete: function(self) { self.cursor.remove() }
         });
-
+    </script>
+    <script>
         var typed = new Typed('#element2', {
             strings: ['A Web Developer'],
             startDelay: 3000,
+            typeSpeed: 150,
+            loop: false,
+            onComplete: function(self) { self.cursor.remove() }
+        });
+    </script>
+    <script>
+        var typed = new Typed('#element3', {
+            strings: ['Welcome to my Website'],
+            startDelay: 6500,
             typeSpeed: 150,
             loop: false,
             onComplete: function(self) { self.cursor.remove() }
