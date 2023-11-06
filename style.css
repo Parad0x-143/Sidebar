@@ -90,6 +90,7 @@ body {
     width: 35px;
     position: relative;
     transition: transform 0.3s ease;
+    pointer-events: none;
 }
 
 .title {
