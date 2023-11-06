@@ -50,5 +50,20 @@
             <h3 class="title">Movies Hub</h3>
         </div>
     </div>
+    <script>
+        // Get all elements with the class "clickable-div"
+        const clickableDivs = document.querySelectorAll(".clickable-div");
+
+        // Add a click event listener to each div
+        clickableDivs.forEach(div => {
+        div.addEventListener("click", function() {
+        // Get the link associated with the clicked div using the "data-link" attribute
+        const linkToOpen = div.getAttribute("data-link");
+
+        // Open the link in a new tab when the div is clicked
+        window.open(linkToOpen, "_blank");
+            });
+        });
+    </script>
 </body>
 </html>
